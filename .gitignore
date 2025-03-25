@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Python virtual environments
+satellite_venv/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+**/.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build directories
+build/
+dist/
+*/build/
+
+# Package locks (optional - you may want to keep these)
+# package-lock.json
+
+# IDE files
+.vscode/
+.idea/
+*.suo
